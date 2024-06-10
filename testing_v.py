@@ -21,7 +21,7 @@ SOCKET_LINK = "http://api-hkiot.kazuyosan.my.id:8081"
 SAVED_COUNT = 'http://api-hkiot.kazuyosan.my.id:8081/database/history/HKCCTV_DH001/guest_count/'
 format_date = "%d_%m_%Y"
 
-vanue = "Bigmall"
+vanue = "Bigmall - Baimbai Event"
 
 tracker = CentroidTracker(maxDisappeared=80, maxDistance=90)
 sio = socketio.Client()
